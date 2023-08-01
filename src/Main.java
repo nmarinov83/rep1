@@ -6,11 +6,6 @@ public class Main {
 
 
 
-        Recipe.addIngredient("flour", 500.0);
-        Recipe.addIngredient("water", 400.0);
-        Recipe.addIngredient("salt", 5.0);
-        Recipe.addIngredient("east", 5.0);
-
 
 
         Recipe.name = "Pancakes";
@@ -27,7 +22,6 @@ public class Main {
         Recipe.addPreCookStep("3.Add backing-powder");
         Recipe.addPreCookStep("4.Add Milk");
 
-        System.out.println(Recipe.viewIngredients());
 
 
         System.out.println(Recipe.viewRecipe());
